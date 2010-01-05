@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0227EF7D10F2C42700D658D1 /* BCSlidingWindowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227EF7C10F2C42700D658D1 /* BCSlidingWindowLayer.m */; };
 		0227EF8710F2C54200D658D1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0227EF8610F2C54200D658D1 /* Quartz.framework */; };
-		0227F05C10F2D0A100D658D1 /* BCSpriteSheetLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227F05B10F2D0A100D658D1 /* BCSpriteSheetLayer.m */; };
 		0227F0B410F2DC9600D658D1 /* cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 0227F0B310F2DC9600D658D1 /* cube.png */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* BCSlidingWindowLayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* BCSlidingWindowLayerAppDelegate.m */; };
@@ -22,8 +21,6 @@
 		0227EF7B10F2C42700D658D1 /* BCSlidingWindowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSlidingWindowLayer.h; sourceTree = "<group>"; };
 		0227EF7C10F2C42700D658D1 /* BCSlidingWindowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSlidingWindowLayer.m; sourceTree = "<group>"; };
 		0227EF8610F2C54200D658D1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
-		0227F05A10F2D0A100D658D1 /* BCSpriteSheetLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCSpriteSheetLayer.h; sourceTree = "<group>"; };
-		0227F05B10F2D0A100D658D1 /* BCSpriteSheetLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCSpriteSheetLayer.m; sourceTree = "<group>"; };
 		0227F0B310F2DC9600D658D1 /* cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube.png; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -66,8 +63,6 @@
 			children = (
 				0227EF7B10F2C42700D658D1 /* BCSlidingWindowLayer.h */,
 				0227EF7C10F2C42700D658D1 /* BCSlidingWindowLayer.m */,
-				0227F05A10F2D0A100D658D1 /* BCSpriteSheetLayer.h */,
-				0227F05B10F2D0A100D658D1 /* BCSpriteSheetLayer.m */,
 			);
 			name = BCSlidingWindowLayer;
 			path = ..;
@@ -201,7 +196,6 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* BCSlidingWindowLayerAppDelegate.m in Sources */,
 				0227EF7D10F2C42700D658D1 /* BCSlidingWindowLayer.m in Sources */,
-				0227F05C10F2D0A100D658D1 /* BCSpriteSheetLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

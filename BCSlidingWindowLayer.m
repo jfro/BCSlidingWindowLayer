@@ -7,7 +7,6 @@
 //
 
 #import "BCSlidingWindowLayer.h"
-#import "BCSpriteSheetLayer.h"
 
 @interface BCSlidingWindowLayer(Private)
 - (void)setupSpriteSheetLayer;
@@ -76,7 +75,15 @@
 {
 	if(!spriteSheetLayer)
 	{
-		spriteSheetLayer = [[[BCSpriteSheetLayer alloc] init] autorelease];
+		//spriteSheetLayer = [[[BCSpriteSheetLayer alloc] init] autorelease];
+		spriteSheetLayer = [[[CALayer alloc] init] autorelease];
+		
+		NSMutableDictionary *newActions = [[[spriteSheetLayer actions] mutableCopy] autorelease];
+		if(!newActions)
+			newActions = [NSMutableDictionary dictionaryWithCapacity:1];
+		[newActions setObject:[NSNull null] forKey:@"position"];
+		[spriteSheetLayer setActions:newActions];
+		
 		[self addSublayer:spriteSheetLayer];
 	}
 	
@@ -97,6 +104,7 @@
 	newLocation = [self locationForCurrentFrame];
 	CGRect newRect = spriteSheetLayer.frame;
 	newRect.origin = newLocation;
+	
 	spriteSheetLayer.frame = newRect;
 }
 

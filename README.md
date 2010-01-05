@@ -1,7 +1,7 @@
 About
 ================
 
-CALayer classes to help doing frame animation quickly by using a sliding window (or door?) technique.  This avoids something slower like calling drawInContext frequently.  So far it seems to perform pretty well with several sprites on screen, both on iPhone & OS X.
+A CALayer class to help doing frame animation quickly by using a sliding window (or door?) technique.  This avoids something slower like calling drawInContext frequently.  So far it seems to perform pretty well with several sprites on screen, both on iPhone & OS X.
 
 A super simple example is included that has a basic cube rotating, animating via a timer.
 
@@ -28,7 +28,6 @@ Todo
 * Support non-square sprite sheets (though square might be best? at least thought so for GL)
 * Ability to have a sprite change its frame based upon its own time setting, see updateWithTimeInterval & age in the cocoa with love posts
 * I haven't thought about what would aid animating things like characters where they have different actions that might all loop a certain subset of frames
-* See if there's a better way than the simple BCSpriteSheetLayer class that overrides actions to prevent movement animation
 
 Feel free to contact me with ideas, send patches, or fork and send pull requests.
 
