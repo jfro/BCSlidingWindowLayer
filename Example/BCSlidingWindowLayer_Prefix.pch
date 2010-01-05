@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BCSlidingWindowLayer' target in the 'BCSlidingWindowLayer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
